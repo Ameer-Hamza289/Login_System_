@@ -22,7 +22,7 @@ export const logout = (user) => ({
   }
 });
 
-// Async action creator: login
+//  login
 export const login = (credentials) => {
   return async (dispatch) => {
     try {
@@ -55,7 +55,7 @@ export const login = (credentials) => {
   };
 };
 
-// Async action creator: signup
+//  signup
 export const signup = (userInfo) => {
   return async (dispatch) => {
     try {
@@ -88,7 +88,7 @@ export const signup = (userInfo) => {
   };
 };
 
-// Async action creator: logout
+//  logout
 export const performLogout = () => {
   return async (dispatch) => {
     try {

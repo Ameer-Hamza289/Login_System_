@@ -8,7 +8,6 @@ import Signup from './Pages/Signup';
 import Protected from './Protected';
 
 function App() {
-  // Retrieve isAuthenticated from Redux store
   const isAuthenticated = useSelector(state => state.auth.isAuthenticated);
 
   return (
